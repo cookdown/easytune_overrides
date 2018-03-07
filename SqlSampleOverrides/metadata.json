@@ -23,5 +23,7 @@
 	],
 	"Author": "Nathan Foreman",
 	"Description": "This is where the full description will be displayed",
+	"Tags":["SQL","Sample","Dev"
+	]
 	"URL": "www.github.com"
 }
