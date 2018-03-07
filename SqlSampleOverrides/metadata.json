@@ -7,7 +7,8 @@
 		{
 			"ConfigurationName": "Standard",
 			"Level": 2,
-			"Summary": "This iswhat most of the servers get"
+			"Summary": "This iswhat most of the servers get",
+			"DisplayName": "Standard Tuning!"
 		},
 		{
 			"ConfigurationName": "Deloitte Standard",
