@@ -13,17 +13,17 @@
 		{
 			"ConfigurationName": "Deloitte Standard",
 			"Level": 5,
-			"Summary": "Customized for our important business services, extensive monitoring data collection"
+			"Summary": "Customized for our important business services, extensive monitoring data collection."
 		},
 		{
 			"ConfigurationName": "Comprehensive",
 			"Level": 3,
-			"Summary": "All On"
+			"Summary": "All On, everything has been activated for the maximum ammount of data collection!"
 		}
 	],
 	"Author": "Nathan Foreman",
 	"Description": "This is where the full description will be displayed",
 	"Tags":["SQL","Sample","Dev"
 	],
-	"URL": "www.github.com"
+	"URL": "https://github.com/P2P-Nathan/CMPT/blob/master/SqlSampleOverrides/details.csv"
 }
