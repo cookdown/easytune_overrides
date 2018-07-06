@@ -6,5 +6,9 @@
   {
     "OverrideCollectionName":"ContosoBestSql",
     "OverrideCollectionDescription":"These are the recommended SQL overrides from Contoso Corp."
+  },
+  {
+    "OverrideCollectionName":"ContosoBestWindows",
+    "OverrideCollectionDescription":"These are the recommended Windows overrides from Contoso Corp."
   }
 ]
