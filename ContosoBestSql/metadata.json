@@ -21,8 +21,8 @@
 			"Summary": "All On, everything has been activated for the maximum ammount of data collection!"
 		}
 	],
-	"Author": "Nathan Foreman",
-	"Description": "This is where the full description will be displayed",
+	"Author": "A Contoso Engineer",
+	"Description": "Contoso corp suggests these SQL settings, they are used within the Contoso Corp environment!",
 	"Tags":["SQL","Sample","Dev"
 	],
 	"URL": "https://squaredup.com"
