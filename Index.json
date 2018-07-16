@@ -4,11 +4,11 @@
     "OverrideCollectionDescription":"A Sample collection of SQL overrides."
   },
   {
-    "OverrideCollectionName":"ContosoBestSql",
+    "OverrideCollectionName":"Active Directory Services",
     "OverrideCollectionDescription":"These are the recommended SQL overrides from Contoso Corp."
   },
   {
-    "OverrideCollectionName":"ContosoBestWindows",
+    "OverrideCollectionName":"Red Hat Linux",
     "OverrideCollectionDescription":"These are the recommended Windows overrides from Contoso Corp."
   }
 ]
