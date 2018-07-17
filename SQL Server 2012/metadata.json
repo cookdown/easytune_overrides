@@ -2,28 +2,20 @@
 	"ConfigurationOptions": [{
 			"ConfigurationName": "Essentials",
 			"Level": 1,
-			"Summary": "This is the essential monitoring data collection"
+			"Summary": "Essential monitoring configuration"
 		},
 		{
-			"ConfigurationName": "Standard",
-			"Level": 2,
-			"Summary": "This iswhat most of the servers get",
-			"DisplayName": "Standard Tuning!"
-		},
-		{
-			"ConfigurationName": "Deloitte Standard",
-			"Level": 5,
-			"Summary": "Customized for our important business services, extensive monitoring data collection."
-		},
-		{
-			"ConfigurationName": "Comprehensive",
+			"ConfigurationName": "Balanced",
 			"Level": 3,
-			"Summary": "All On, everything has been activated for the maximum ammount of data collection!"
+			"Summary": "Balanced monitoring extending the Essentials to include additional data collection"
+		},
+		{
+			"ConfigurationName": "Full",
+			"Level": 5,
+			"Summary": "Full monitoing configuration that uses additional alerts to enable proactive and earlier reactive alerts."
 		}
 	],
-	"Author": "A Contoso Engineer",
-	"Description": "Contoso corp suggests these SQL settings, they are used within the Contoso Corp environment!",
-	"Tags":["SQL","Sample","Dev"
-	],
-	"URL": "https://squaredup.com"
+	"Author": "Nathan",
+	"Description": "SQL Server 2012",
+	"URL": "https://github.com/P2P-Nathan/CMPT/blob/master/Active%20Directory%20Services/details.csv"
 }
