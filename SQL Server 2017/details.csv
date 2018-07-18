@@ -1,4 +1,4 @@
-ManagementPackId,WorkflowId,WorkflowType,OverrideParameterName,OverrideParameterType,DefaultValue,Basic,Normal,Dev Server,Notes
+ManagementPackId,WorkflowId,WorkflowType,OverrideParameterName,OverrideParameterType,DefaultValue,Essentials,Balanced,Full,Notes
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.RedoBytesRemaining,Rule,Enabled,bool,TRUE,,,FALSE,
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.Discovery.AlertsScopeGroupL3,Discovery,Enabled,bool,TRUE,,,FALSE,
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.AlwaysOnGroupOfGroupsDiscovery,Discovery,Enabled,bool,TRUE,,,FALSE,
@@ -13,11 +13,11 @@ Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.Da
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.DatabaseReplicaAlwaysOnDiscovery,Discovery,TimeoutSeconds,int,300,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.DatabaseReplicaAlwaysOnDiscovery,Discovery,IntervalSeconds,int,14400,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.DatabaseReplicaGroupDiscovery,Discovery,Enabled,bool,TRUE,,,,
-Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.AvailabilityGroupGroupDiscovery,Discovery,Enabled,bool,TRUE,,,,
+Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.AvailabilityGroupGroupDiscovery,Discovery,Enabled,bool,TRUE,FALSE,,,
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.AlwaysOnDatabaseReplicasDiscovery,Discovery,Enabled,bool,TRUE,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.AlwaysOnReplicasDiscovery,Discovery,Enabled,bool,TRUE,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.GeneralUserPolicyDiscovery,Discovery,Enabled,bool,FALSE,,,,
-Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.GeneralUserPolicyDiscovery,Discovery,IntervalSeconds,int,14400,,,,
+Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.GeneralUserPolicyDiscovery,Discovery,IntervalSeconds,int,14400,700,,,
 Microsoft.SQLServer.2012.AlwaysOn.Discovery,Microsoft.SQLServer.2012.AlwaysOn.GeneralUserPolicyDiscovery,Discovery,TimeoutSeconds,int,300,,,,
 Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.DiscoveryWarning.Rule,Rule,Enabled,bool,TRUE,,,,
 Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.DiscoveryWarning.Rule,Rule,Severity,int,1,,,,
@@ -33,7 +33,7 @@ Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.M
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.Monitor.AvailabilityDatabaseHealth.BackupStatus,UnitMonitor,SyncTime,string,,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.ClusterStateMonitor,UnitMonitor,Enabled,bool,TRUE,,,FALSE,Monitor Property
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.ClusterStateMonitor,UnitMonitor,TimeoutSeconds,int,300,,,,
-Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.ClusterStateMonitor,UnitMonitor,Interval,int,900,,,,
+Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.ClusterStateMonitor,UnitMonitor,Interval,int,900,700,600,500,Increased interval
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.ClusterStateMonitor,UnitMonitor,PolicyName,string,Targeted Property,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.AvailabilityReplicaIsJoined,UnitMonitor,Enabled,bool,TRUE,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.AvailabilityReplicaIsJoined,UnitMonitor,TimeoutSeconds,int,300,,,,
@@ -105,7 +105,7 @@ Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.DatabaseDiscoveryRul
 Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.DatabaseDiscoveryRule,Discovery,IntervalSeconds,int,14400,,,,
 Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.AgentJobDiscoveryRule,Discovery,Enabled,bool,FALSE,,,,
 Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.AgentJobDiscoveryRule,Discovery,TimeoutSeconds,int,300,,,,
-Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.IntegrationServicesGroup.Discovery,Discovery,Enabled,bool,TRUE,,,,
+Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.IntegrationServicesGroup.Discovery,Discovery,Enabled,bool,TRUE,FALSE,FALSE,FALSE,
 Microsoft.SQLServer.2012.Discovery,Microsoft.SQLServer.2012.DBEngineDiscoveryRule.Server,Discovery,SyncTime,string,,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.DbrDataSynchronizationState,UnitMonitor,PolicyName,string,Targeted Property,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.DbrDataSynchronizationState,UnitMonitor,TimeoutSeconds,int,300,,,,
@@ -123,7 +123,7 @@ Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.R
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.TotalLogRequiringUndo,Rule,Enabled,bool,TRUE,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.TotalLogRequiringUndo,Rule,Frequency,int,900,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.BytesSentToReplicaPerSecond,Rule,Enabled,bool,TRUE,,,,
-Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.BytesSentToReplicaPerSecond,Rule,Frequency,int,900,,,,
+Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.BytesSentToReplicaPerSecond,Rule,Frequency,int,900,800,700,500,Increased Frequency
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.RedoBlockedSec,Rule,Enabled,bool,TRUE,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.RedoBlockedSec,Rule,Frequency,int,900,,,,
 Microsoft.SQLServer.2012.AlwaysOn.Monitoring,Microsoft.SQLServer.2012.AlwaysOn.BytesReceivedFromReplicaPerSecond,Rule,Enabled,bool,TRUE,,,,
