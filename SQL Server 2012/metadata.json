@@ -1,1 +1,23 @@
-{"Author":"Nathan Foreman","ConfigurationOptions":[{"ConfigurationName":"Essentials","DisplayName":null,"Level":0,"Summary":"Core monitoring for SQL instances"},{"ConfigurationName":"Balanced","DisplayName":null,"Level":1,"Summary":"A balance of monitoring and performance collection"},{"ConfigurationName":"Full","DisplayName":null,"Level":2,"Summary":"Fully implemented monitoring and performance collection for critical SQL services"}],"Description":"Overrides for monitoring and performance collection on SQL Server 2012 instances","Tags":null,"URL":null}
+{
+	"Author": "Nathan Foreman",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "Essentials",
+			"DisplayName": null,
+			"Level": 0,
+			"Summary": "Core monitoring for SQL instances"
+		}, {
+			"ConfigurationName": "Balanced",
+			"DisplayName": null,
+			"Level": 1,
+			"Summary": "A balance of monitoring and performance collection"
+		}, {
+			"ConfigurationName": "Full",
+			"DisplayName": null,
+			"Level": 2,
+			"Summary": "Fully implemented monitoring and performance collection for critical SQL services"
+		}
+	],
+	"Description": "Overrides for monitoring and performance collection on SQL Server 2012 instances",
+	"Tags": null,
+	"URL": "https://github.com/P2P-Nathan/CMPT"
+}
