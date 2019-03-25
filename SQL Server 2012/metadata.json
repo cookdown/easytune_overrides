@@ -19,5 +19,5 @@
 	],
 	"Description": "Overrides for monitoring and performance collection on SQL Server 2012 instances",
 	"Tags": null,
-	"URL": "https://github.com/P2P-Nathan/CMPT"
+	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/SQL%20Server%202012"
 }
