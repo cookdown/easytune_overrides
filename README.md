@@ -8,13 +8,10 @@ SCOM is known for management packs that provide in-depth monitoring for Microsof
 Key benefits
 ------------
 
-Enables you to apply best practices created by the community
-
-Makes it easy to explain what level of monitoring was applied to any workload
-
-Removes the need for creating overrides one at a time
-
-Avoids the sprawl of overrides across multiple management packs
+- Enables you to apply best practices created by the community
+- Makes it easy to explain what level of monitoring was applied to any workload
+- Removes the need for creating overrides one at a time
+- Avoids the sprawl of overrides across multiple management packs
 
 * * * * *
 
