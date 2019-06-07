@@ -1,1 +1,19 @@
 
+{
+	"Author": "Nathan Gau",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "Essentials",
+			"DisplayName": null,
+			"Level": 0,
+			"Summary": "Core monitoring"
+		}, {
+			"ConfigurationName": "Balanced",
+			"DisplayName": null,
+			"Level": 1,
+			"Summary": "A balance of monitoring and performance collection"
+		}
+	],
+	"Description": "Provides overrides and tuning for the Security Monitoring pack",
+	"Tags": null,
+	"URL": "https://nathangau.wordpress.com/category/security-monitoring-mp/"
+}
