@@ -22,9 +22,5 @@
     {
         "TuningPackName":  "Windows Server 2012 and 2012R2",
         "TuningPackDescription":  ""
-    },
-    {
-        "TuningPackName":  "Security Monitoring Tuning Pack 1.6",
-        "TuningPackDescription":  ""
     }
 ]
