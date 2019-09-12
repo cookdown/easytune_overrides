@@ -1,0 +1,23 @@
+{
+	"Author": "Nathan Foreman",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "Essential",
+			"DisplayName": null,
+			"Level": 0,
+			"Summary": "Base monitoring for Tomcat Applications"
+		}, {
+			"ConfigurationName": "Balanced",
+			"DisplayName": null,
+			"Level": 1,
+			"Summary": "A mix of monitroing and performance collection for Tomcat Applications"
+		}, {
+			"ConfigurationName": "Full",
+			"DisplayName": null,
+			"Level": 2,
+			"Summary": "Full monitoring and performance collection for Critical Tomcat Applications"
+		}
+	],
+	"Description": "Monitoring and tuning for Tomcat Web Applications versions 5, 6, 7, and 8",
+	"Tags": null,
+	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/Tomcat%20Web%20(5%2C%206%2C%207%2C%20and%208)"
+}
