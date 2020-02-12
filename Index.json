@@ -4,6 +4,10 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "Active Directory 2016",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "IIS 8 (Server 2012)",
         "TuningPackDescription":  ""
     },
