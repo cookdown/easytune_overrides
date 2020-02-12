@@ -1,4 +1,4 @@
-ManagementPackId,WorkflowId,WorkflowType,DisplayName,Description,OverrideParameterName,OverrideParameterType,DefaultValue,Essential,Balanced,Enhanced,Master,,,
+ManagementPackId,WorkflowId,WorkflowType,DisplayName,Description,OverrideParameterName,OverrideParameterType,DefaultValue,Essential,Balanced,Enhanced,Master,Notes,,
 Microsoft.Windows.Server.AD.2016.Discovery,Microsoft.Windows.Server.2016.AD.DomainControllerComputerGroup.ComputerGroupDiscovery,Discovery,Populate AD Server 2016 Domain Controller Computer Group,Adds all Active Directory Microsoft Windows Server 2016 managed objects to the group,,bool,TRUE,TRUE,TRUE,TRUE,TRUE,,,
 Microsoft.Windows.Server.AD.2016.Discovery,Microsoft.AD.Remote.Topology.Discovery,Discovery,AD Remote Topology Discovery,Performs the AD Connection Object Discovery. Runs on all managed DCs,Enabled,bool,TRUE,TRUE,TRUE,TRUE,TRUE,,,
 Microsoft.Windows.Server.AD.2016.Discovery,Microsoft.AD.Remote.Topology.Discovery,Discovery,AD Remote Topology Discovery,Performs the AD Connection Object Discovery. Runs on all managed DCs,RequireOutput,bool,TRUE,TRUE,TRUE,TRUE,TRUE,,,
