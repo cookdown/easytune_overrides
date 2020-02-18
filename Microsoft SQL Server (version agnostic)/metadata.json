@@ -4,5 +4,5 @@
 	],
 	"Description": "This tuning pack offers pre-defined monitornig levels for Windows Server 2016 and newer based Active Directory domain controllers.",
 	"Tags": null,
-	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/SQL%20Server%20Core"
+	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/Microsoft%20SQL%20Server%20(version%20agnostic)"
 }
