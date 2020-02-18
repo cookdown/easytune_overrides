@@ -1,5 +1,52 @@
 [
     {
+        "TuningPackName":  "Active Directory 2016",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Apache",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "HYCU F5",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Microsoft Red Hat Enterprise Linux Server 5 6 7",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Microsoft SQL Server (version agnostic)",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Microsoft Unix Linux",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "System Center Orchestrator (SCOrch)",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "System Center Service Manager (SCSM)",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "System Center Virtual Machine Manager (SCVMM) 2016",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Veeam VMWare",
+        "TuningPackDescription":  ""
+    },    {
+        "TuningPackName":  "Windows Client",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Windows Server 2008",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "IIS 7 (Server 2008)",
         "TuningPackDescription":  ""
     },
