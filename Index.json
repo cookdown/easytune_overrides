@@ -32,6 +32,14 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "System Center Core Monitoring",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "System Center Operations Manager (SCOM) Summary Dashboard",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "System Center Virtual Machine Manager (SCVMM) 2016",
         "TuningPackDescription":  ""
     },
