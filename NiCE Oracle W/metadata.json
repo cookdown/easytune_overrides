@@ -1,0 +1,32 @@
+{
+	"Author": "NiCE",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "AvailabilityOnly",
+			"DisplayName": "Availability Only",
+			"Level": 0,
+			"Summary": "Disable all performance health monitors and performance collection rules except 'Instance Status'"
+		},{
+			"ConfigurationName": "Summary",
+			"DisplayName": null,
+			"Level": 1,
+			"Summary": "Disable tablespace, datafile discoveries and enables summary monitors, which summarize tablespace data at the collector level. Usage: Saves you space and performance in case not all tablespace details are required"
+		},{
+			"ConfigurationName": "SummaryOpsDBOnly",
+			"DisplayName": "Summary OpsDB Only",
+			"Level": 2,
+			"Summary": "Disable tablespace, datafile discoveries and enables summary monitors, which summarize tablespace data at the collector level. Usage: Saves you space and performance in case not all tablespace details are required. Data is written to the OpsDB only for all enabled performance rules."
+		},{
+			"ConfigurationName": "DefaultOpsDBOnly",
+			"DisplayName": "Default + OpsDB Only",
+			"Level": 3,
+			"Summary": "Keeps existing override configuration for everything except for the performance collection rule parameter 'Collect to DataWarehouse'. This is set to FALSE for ALL performance rules."
+		},{
+			"ConfigurationName": "DefaultDWHFull",
+			"DisplayName": "Default + DWH Full",
+			"Level": 4,
+			"Summary": "Keeps existing override configuration for everything except for the performance collection rule parameter 'Collect to DataWarehouse'. This is set to TRUE for ALL performance rules."
+		}],
+	"Description": "NiCE Oracle (Windows) Tuning Pack",
+	"Tags": null,
+	"URL": null
+}
