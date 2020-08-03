@@ -29,6 +29,6 @@ This level has most of the monitors turned on and the performance collections ar
 
 ### Management Packs Tuned
 
-Microsoft.Azure.ManagedInstance.Discovery
-Microsoft.Azure.ManagedInstance.Monitoring
-Microsoft.Azure.ManagedInstance.Views
+Microsoft.Azure.ManagedInstance.Discovery  
+Microsoft.Azure.ManagedInstance.Monitoring  
+Microsoft.Azure.ManagedInstance.Views  
