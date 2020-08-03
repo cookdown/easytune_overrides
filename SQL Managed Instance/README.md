@@ -1,6 +1,6 @@
 # SQL Managed Instance
 
-This tuning pack covers Azure SQL Managed instance version 7.0.22.0 shipped in 2020. Microsoft authors all of the management pack covered in the Tuning Pack.
+This tuning pack covers Azure SQL Managed instance version 7.0.22.0 shipped in 2020. Microsoft authors all of the management pack covered in the Tuning Pack.  
 See the corresponding Cookdown blog article at: https://t.co/FRelXILV2V?amp=1
 
 ## Tuning Levels
