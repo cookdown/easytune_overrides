@@ -89,5 +89,9 @@
     {
         "TuningPackName":  "Windows Server 2012 and 2012R2",
         "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName": "SQL Managed Instance",
+        "TuningPackDescription": ""
     }
 ]
