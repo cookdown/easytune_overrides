@@ -23,5 +23,5 @@
 		}],
 	"Description": "Azure SQL Managed Instance Tuning Pack",
 	"Tags": null,
-	"URL": null
+	"URL": "https://github.com/cookdown/easytune_overrides/blob/master/SQL%20Managed%20Instance/README.md"
 }
