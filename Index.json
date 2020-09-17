@@ -40,6 +40,10 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "System Center Configuration Manager (SCCM)",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "System Center Core Monitoring",
         "TuningPackDescription":  ""
     },
