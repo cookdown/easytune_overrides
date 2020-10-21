@@ -2,7 +2,7 @@ ManagementPackId,WorkflowId,WorkflowType,DisplayName,Description,OverrideParamet
 Microsoft.Linux.Library,Microsoft.Linux.ComputerGroup.Discovery,Discovery,Discover Linux Computer Group,This discovery puts all Linux Computers into the Linux Computer Group.,Enabled,bool,TRUE,
 Microsoft.Unix.Library,Microsoft.Unix.GenerateNodeHeartbeat,Rule,Generate UNIX/Linux Computer Heartbeat,System rule generating heartbeats for device monitoring.,Enabled,bool,TRUE,
 Microsoft.Unix.Library,Microsoft.Unix.LogFileModuleErrors.Alert,Rule,Logfile Module Alert Rule,Alert rule for Logfile module error messages.,Enabled,bool,TRUE,
-Microsoft.Unix.Library,Microsoft.Unix.LogFileModuleErrors.Alert,Rule,Logfile Module Alert Rule,Alert rule for Logfile module error messages.,Severity,int,1,
+Microsoft.Unix.Library,Microsoft.Unix.LogFileModuleErrors.Alert,Rule,Logfile Module Alert Rule,Alert rule for Logfile module error messages.,Severity,int,2,
 Microsoft.Unix.Library,Microsoft.Unix.LogFileModuleErrors.Alert,Rule,Logfile Module Alert Rule,Alert rule for Logfile module error messages.,Priority,int,1,
 Microsoft.Unix.Library,Microsoft.Unix.RunAsAccountErrors.Alert,Rule,UNIX/Linux Run As Account Alert Rule,Alert rule for UNIX/Linux Run As account error messages.,Enabled,bool,TRUE,
 Microsoft.Unix.Library,Microsoft.Unix.RunAsAccountErrors.Alert,Rule,UNIX/Linux Run As Account Alert Rule,Alert rule for UNIX/Linux Run As account error messages.,Severity,int,1,
