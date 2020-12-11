@@ -1,0 +1,27 @@
+{
+	"Author": "Dave Lewis (Support, Testing and Infrastructure at Cookdown)",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "Test",
+			"DisplayName": "Test instances",
+			"Level": 0,
+			"Summary": "Designed for early adoption, this level provides you with the bare minimum in monitoring and infrequent performance collection."
+		},{
+			"ConfigurationName": "QA instances",
+			"DisplayName": "QA instances",
+			"Level": 1,
+			"Summary": "Designed to be a step up from the test level in performance collection."
+		},{
+			"ConfigurationName": "Production instances",
+			"DisplayName": "Production instances",
+			"Level": 2,
+			"Summary": "A more complete monitoring solution with frequenct performance collection."
+		},{
+			"ConfigurationName": "Performance",
+			"DisplayName": "Performance",
+			"Level": 3,
+			"Summary": "Like Production except with performance collection every 2 minutes. Use with caution."
+		}],
+	"Description": "Azure SQL Managed Instance Tuning Pack",
+	"Tags": null,
+	"URL": "https://github.com/cookdown/easytune_overrides/blob/master/SQL%20Managed%20Instance/README.md"
+}

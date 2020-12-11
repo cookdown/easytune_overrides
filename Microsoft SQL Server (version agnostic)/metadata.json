@@ -2,7 +2,7 @@
 	"Author": "Shawn Williams (Technical Evangelist for SquaredUp)",
 	"ConfigurationOptions": [
 	],
-	"Description": "This tuning pack offers pre-defined monitornig levels for Windows Server 2016 and newer based Active Directory domain controllers.",
+	"Description": "This tuning pack offers pre-defined monitornig levels for version 7.0.15.0 of the SQL Agnostic Management Pack.",
 	"Tags": null,
 	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/Microsoft%20SQL%20Server%20(version%20agnostic)"
 }
