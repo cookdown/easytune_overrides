@@ -1,0 +1,28 @@
+{
+	"Author":"Dave Lewis (Support, Testing and Infrastructure at Cookdown)",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "Test",
+			"DisplayName": null,
+			"Level": 0,
+			"Summary": "Bare minimum monitoring and very infrequent performance collection"
+		}, {
+			"ConfigurationName": "QA",
+			"DisplayName": null,
+			"Level": 1,
+			"Summary": "Low level of monitoring and infrequent performance collection"
+		}, {
+			"ConfigurationName": "Production",
+			"DisplayName": null,
+			"Level": 2,
+			"Summary": "Fully implemented monitoring and performance collection"
+		}, {
+			"ConfigurationName": "Performance",
+			"DisplayName": null,
+			"Level": 2,
+			"Summary": "Same as production but with VERY frequent performance collection. Use with caution."
+		}
+	],
+	"Description": "Universal Linux tuning (v.10.19.1123.0)",
+	"Tags": null,
+	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/Microsoft%20Universal%20Linux"
+}
