@@ -4,22 +4,22 @@
 			"ConfigurationName": "Test",
 			"DisplayName": null,
 			"Level": 0,
-			"Summary": "Bare minimum monitoring and very infrequent performance collection"
+			"Summary": "Very infrequent performance collection; 15 minute intervals"
 		}, {
 			"ConfigurationName": "QA",
 			"DisplayName": null,
 			"Level": 1,
-			"Summary": "Low level of monitoring and infrequent performance collection"
+			"Summary": "Infrequent performance collection; 10 minute intervals"
 		}, {
 			"ConfigurationName": "Production",
 			"DisplayName": null,
 			"Level": 2,
-			"Summary": "Fully implemented monitoring and performance collection"
+			"Summary": "Normal performance collection; 5 minute intervals"
 		}, {
 			"ConfigurationName": "Performance",
 			"DisplayName": null,
 			"Level": 2,
-			"Summary": "Same as production but with VERY frequent performance collection. Use with caution."
+			"Summary": "VERY frequent performance collection. Use with caution. 2 minute intervals"
 		}
 	],
 	"Description": "Universal Linux tuning (v.10.19.1123.0)",
