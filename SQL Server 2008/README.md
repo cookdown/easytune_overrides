@@ -12,11 +12,14 @@ Included with every Tuning Pack, discovery only is an excellent way to learn the
 
 ### MPDefault
 
-As with the DiscoveryOnly level, MPDefault is included with every Tuning Pack.  This level allows a single group to operate a the pack authors setting, while having the global/class level overrides set to another level.  MPDefault works great with a global level of DiscoveryOnly
+As with the DiscoveryOnly level, MPDefault is included with every Tuning Pack.  
+This level allows a single group to operate a the pack authors setting, while having the global/class level overrides set to another level.  
+MPDefault works great with a global level of DiscoveryOnly
 
 ### Essentials
 
-Matching the name, the essentials level is designed to give you bare-bones monitoring for your environment.  To over-simplify things, this tuning level attempts to reduce alerts to only those actionable items at the risk of missing some proactive notifications.
+Matching the name, the essentials level is designed to give you bare-bones monitoring for your environment.  
+This tuning level attempts to reduce alerts to only those actionable items at the risk of missing some proactive notifications.  
 Example items included in the Essentials:
 
 - Windows service stopped
@@ -33,5 +36,5 @@ Using the full level creates a comprehensive monitoring environment, with the do
 
 #### Management Packs Tuned
 
-Microsoft.SQLServer.2008.Discovery
-Microsoft.SQLServer.2008.Monitoring
+Microsoft.SQLServer.2008.Discovery  
+Microsoft.SQLServer.2008.Monitoring  

@@ -18,5 +18,5 @@ Contains the Unix/Linux authors default tuning. Good for setting a group/object 
 
 #### Management Packs Tuned
 
-Microsoft.Unix.Library
-Microsoft.Unix.Service.Library
+Microsoft.Unix.Library  
+Microsoft.Unix.Service.Library  
