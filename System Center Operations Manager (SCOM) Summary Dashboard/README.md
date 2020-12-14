@@ -18,7 +18,7 @@ Contains the MP authors default tuning. Good for setting a group/object to the t
 
 ### Apajove
 
-This level contains tuning which will help with console performance in most situations, even more so in larger environments. Used in almost all SCOM implementations Apajove (<www.apajove.com/>) are involved in. Original tips from Kevin Holman (<https://kevinholman.com/2017/08/15/quicktip-disabling-workflows-to-optimize-for-large-environments//>)
+This level contains tuning which will help with console performance in most situations, even more so in larger environments. Used in almost all SCOM implementations Apajove (www.apajove.com) are involved in. Original tips from Kevin Holman (<https://kevinholman.com/2017/08/15/quicktip-disabling-workflows-to-optimize-for-large-environments/>)
 
 #### Management Packs Tuned
 

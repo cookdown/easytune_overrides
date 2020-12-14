@@ -1,6 +1,5 @@
 # IIS 8 Tuning
-This tuning pack covers IIS 8, which was shipped with Server 2012.  
-Microsoft authors both management packs covered in the Tuning Pack.
+This tuning pack covers IIS 8, which was shipped with Server 2012.  Microsoft authors both management packs covered in the Tuning Pack.
 
 ## Tuning Levels
 
@@ -19,7 +18,7 @@ MPDefault works great with a global level of DiscoveryOnly
 ### Essentials
 
 Matching the name, the essentials level is designed to give you bare-bones monitoring for your environment.  
-To over-simplify things, this tuning level attempts to reduce alerts to only those actionable items at the risk of missing some proactive notifications.  
+This tuning level attempts to reduce alerts to only those actionable items at the risk of missing some proactive notifications.  
 Example items included in the Essentials:
 
 - Windows service stopped

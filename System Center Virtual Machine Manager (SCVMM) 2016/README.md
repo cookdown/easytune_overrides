@@ -2,16 +2,16 @@
 
 This Tuning Pack covers the Microsoft System Center Virtual Machine Manager (SCVMM) management pack (captured with version 7.7.1127.0 of the MP).
 
-This tuning pack was created by Shawn Williams, a member of the Technical Evangelist group from SquaredUp.  
-Read more about Shawn from the SquaredUp Blog here <https://squaredup.com/blog/meet-the-tech-evangelist-group/>
+This tuning pack was created by Shawn Williams, a member of the Technical Evangelist group from SquaredUp.  Read more about Shawn from the SquaredUp Blog here <https://squaredup.com/blog/meet-the-tech-evangelist-group>
 
 ## Levels
 
-The below levels are included in this Tuning Pack. There are not (currently) any custom levels in this tuning pack
+The below levels are included in this Tuning Pack.  
+There are not (currently) any custom levels in this tuning pack
 
 ### DiscoveryOnly
 
-Disables all rules and monitors, only discoveries are left enabled. Great when onboarding new monitoring as turning off everything but discoveries lets you phase in new tuning.
+Disables all rules and monitors, only discoveries are left enabled. Great when onboarding new monitoring as turning off everything but discoveries lets you phase
 
 ### MPDefault
 

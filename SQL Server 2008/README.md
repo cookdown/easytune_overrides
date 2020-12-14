@@ -28,11 +28,13 @@ Example items included in the Essentials:
 
 ### Balanced
 
-The balanced level is designed to provide additional monitoring and performance collection over the essential level, while still reducing unnecessary noise from the default and full tuning options.  With the variance between deployments, the balanced level is a great candidate to start with when tuning your custom level.
+The balanced level is designed to provide additional monitoring and performance collection over the essential level, while still reducing unnecessary noise from the default and full tuning options.  
+With the variance between deployments, the balanced level is a great candidate to start with when tuning your custom level.
 
 ### Full
 
-Using the full level creates a comprehensive monitoring environment, with the downside of additional alerts and data collection.  Full monitoring includes alerts for more unique and specific conditions as well as some increased monitoring and performance collection intervals.
+Using the full level creates a comprehensive monitoring environment, with the downside of additional alerts and data collection.  
+Full monitoring includes alerts for more unique and specific conditions as well as some increased monitoring and performance collection intervals.
 
 #### Management Packs Tuned
 
