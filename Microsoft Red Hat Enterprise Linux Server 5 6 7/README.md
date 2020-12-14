@@ -1,6 +1,6 @@
 # Microsoft Red Hat Enterprise Linux Server 5/6/7 Tuning
 
-This Tuning Pack covers the Microsoft Red Hat Enterprise Linux Server 5/6/7 management packs (captured with version 7.7.1136.0 of the MP) and was created by Shawn Williams, a member of the Technical Evangelist group from SquaredUp.
+This Tuning Pack covers the Microsoft Red Hat Enterprise Linux Server 5/6/7 management packs (captured with version 7.7.1136.0 of the MP) and was created by Shawn Williams, a member of the Technical Evangelist group from SquaredUp.  
 Read more about Shawn from the SquaredUp Blog here <https://squaredup.com/blog/meet-the-tech-evangelist-group/>
 
 ## Levels
@@ -17,7 +17,7 @@ Contains the RHEL 5, 6,7 and the Redhat common library MP authors default tuning
 
 #### Management Packs Tuned
 
-Microsoft.Linux.RedHat.Library
-Microsoft.Linux.RHEL.5
-Microsoft.Linux.RHEL.6
-Microsoft.Linux.RHEL.7
+Microsoft.Linux.RedHat.Library  
+Microsoft.Linux.RHEL.5  
+Microsoft.Linux.RHEL.6  
+Microsoft.Linux.RHEL.7  
