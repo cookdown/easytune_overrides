@@ -12,9 +12,11 @@ Included with every Tuning Pack, discovery only is an excellent way to learn the
 
 ### MPDefault
 
-As with the DiscoveryOnly level, MPDefault is included with every Tuning Pack.  This level allows a single group to operate a the pack authors setting, while having the global/class level overrides set to another level.  MPDefault works great with a global level of DiscoveryOnly
+As with the DiscoveryOnly level, MPDefault is included with every Tuning Pack.  
+This level allows a single group to operate a the pack authors setting, while having the global/class level overrides set to another level.  
+MPDefault works great with a global level of DiscoveryOnly
 
 #### Management Packs Tuned
 
-Microsoft.SQLServer.2012.Discovery
-Microsoft.SQLServer.2012.Monitoring
+Microsoft.SQLServer.2012.Discovery  
+Microsoft.SQLServer.2012.Monitoring  
