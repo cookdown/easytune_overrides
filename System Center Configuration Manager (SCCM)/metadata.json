@@ -1,0 +1,7 @@
+{
+	"Author": "Dave Lewis (Support, Testing and Infrastructure at Cookdown)",
+	"ConfigurationOptions": [],
+	"Description": "SCCM tuning pack (captured with v5.0.8239.1010)",
+	"Tags": null,
+	"URL": "https://github.com/cookdown/easytune_overrides/blob/master/System%20Center%20Configuration%20Manager%20(SCCM)"
+}
