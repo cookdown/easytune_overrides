@@ -6,7 +6,7 @@
         "Level": 0,
         "Summary": "Recommended overrides to help console performance. Used by Apajove in almost all SCOM deployments."
         }],
-    "Description":"Helps create overrides to help console performance, especially in larger environments",
+    "Description":"Helps create overrides to improve console performance, especially in larger environments",
     "Tags":null,
     "URL":"https://github.com/cookdown/easytune_overrides/tree/master/System%20Center%20Operations%20Manager%20(SCOM)%20Summary%20Dashboard"
 }
