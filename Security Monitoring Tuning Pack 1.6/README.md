@@ -10,7 +10,8 @@ The below levels are included in this Tuning Pack.
 
 ### DiscoveryOnly
 
-Disables all rules and monitors, only discoveries are left enabled. Great when onboarding new monitoring as turning off everything but discoveries lets you phase in tuning.
+Disables all rules and monitors, only discoveries are left enabled.  
+Great when onboarding new monitoring as turning off everything but discoveries lets you phase in tuning.
 
 ### MPDefault
 
@@ -26,6 +27,6 @@ A good coverage of monitoring and collection of security related performance met
 
 #### Management Packs Tuned
 
-WindowsEventCollectorDiscovery
-Security.Monitoring
-Microsoft.Windows.Server.2012.R2.Discovery
+WindowsEventCollectorDiscovery  
+Security.Monitoring  
+Microsoft.Windows.Server.2012.R2.Discovery  
