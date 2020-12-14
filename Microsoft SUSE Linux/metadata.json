@@ -1,0 +1,28 @@
+{
+	"Author":"Dave Lewis (Support, Testing and Infrastructure at Cookdown)",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "Test",
+			"DisplayName": null,
+			"Level": 0,
+			"Summary": "Very infrequent performance collection; 15 minute intervals"
+		}, {
+			"ConfigurationName": "QA",
+			"DisplayName": null,
+			"Level": 1,
+			"Summary": "Infrequent performance collection; 10 minute intervals"
+		}, {
+			"ConfigurationName": "Production",
+			"DisplayName": null,
+			"Level": 2,
+			"Summary": "Normal performance collection; 5 minute intervals"
+		}, {
+			"ConfigurationName": "Performance",
+			"DisplayName": null,
+			"Level": 2,
+			"Summary": "VERY frequent performance collection. Use with caution. 2 minute intervals"
+		}
+	],
+	"Description": "Microsoft SUSE Linux tuning (v.10.19.1123.0)",
+	"Tags": null,
+	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/Microsoft%20SUSE%20Linux"
+}
