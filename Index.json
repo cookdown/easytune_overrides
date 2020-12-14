@@ -54,8 +54,13 @@
     {
         "TuningPackName":  "Veeam VMWare",
         "TuningPackDescription":  ""
-    },    {
+    },
+    {
         "TuningPackName":  "Windows Client",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Windows Client (Win 10)",
         "TuningPackDescription":  ""
     },
     {
@@ -89,7 +94,7 @@
     {
         "TuningPackName":  "Windows Server 2012 and 2012R2",
         "TuningPackDescription":  ""
-    },    
+    },
 	{
         "TuningPackName":  "Windows Server 2016 and 1709+",
         "TuningPackDescription":  ""
