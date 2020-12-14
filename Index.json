@@ -32,6 +32,10 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "Microsoft Universal Linux",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "Microsoft SUSE Linux",
         "TuningPackDescription":  ""
     },
