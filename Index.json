@@ -80,6 +80,10 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "IIS 10 (Server 2016)",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "Security Monitoring Tuning Pack 1.6",
         "TuningPackDescription":  ""
     },
