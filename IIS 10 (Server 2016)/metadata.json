@@ -1,7 +1,7 @@
 {
 	"Author":"Dave Lewis (Support, Testing and Infrastructure at Cookdown)",
 	"ConfigurationOptions": [{
-			"ConfigurationName": "Essentials",
+			"ConfigurationName": "Essential",
 			"DisplayName": "Essentials",
 			"Level": 0,
 			"Summary": "Designed to give you bare-bones monitoring for your environment. Attempts to reduce alerts to actionable items at a risk of missing some proactive notifications."
