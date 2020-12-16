@@ -1,5 +1,5 @@
 {
-	"Author":"Dave Lewis (Support, Testing and Infrastructure at Cookdown)",
+	"Author":"Cookdown",
 	"ConfigurationOptions": [{
 			"ConfigurationName": "Essential",
 			"DisplayName": "Essentials",
@@ -17,7 +17,7 @@
 			"Summary": "Includes alerts for more unique and specific conditions as well as some increased monitoring and performance collection intervals"
 		}
 	],
-	"Description":"Internet Information Services (IIS) 10. Shipped with Server 2016. Captured using V10.1.0.0 of the MP.",	
+	"Description":"Internet Information Services (IIS) 10 (captured using V10.1.0.0 of the MP). Shipped with Server 2016.",
 	"Tags":null,
 	"URL":"https://github.com/cookdown/easytune_overrides/tree/master/IIS%2010%20(Server%202016)"
 }

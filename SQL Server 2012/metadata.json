@@ -1,7 +1,7 @@
 {
 	"Author": "Nathan Foreman (Solutions Architect at Cookdown)",
 	"ConfigurationOptions": [],
-	"Description": "Overrides for monitoring and performance collection on SQL Server 2012 instances",
+	"Description": "Overrides for monitoring and performance collection on SQL Server 2012 instances. A baseline provided to kick-start your own tuning packs. If you do have a best practice tuning pack to share please reach out to us at https://github.com/cookdown/easytune_overrides",
 	"Tags": null,
 	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/SQL%20Server%202012"
 }

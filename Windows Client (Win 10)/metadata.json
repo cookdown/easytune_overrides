@@ -1,7 +1,7 @@
 {
 	"Author": "Dave Lewis (Support, Testing and Infrastructure at Cookdown)",
 	"ConfigurationOptions": [],
-	"Description": "Windows 10 tuning pack",
+	"Description": "Windows 10 tuning pack. A baseline provided to kick-start your own tuning packs. If you do have a best practice tuning pack to share please reach out to us at https://github.com/cookdown/easytune_overrides",
 	"Tags": null,
 	"URL": "https://github.com/cookdown/easytune_overrides/blob/master/Windows%20Client%20(Win%2010)"
 }

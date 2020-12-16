@@ -5,7 +5,7 @@ This Tuning Pack covers the Microsoft System Configuration Manager (aka SCCM) ma
 ## Levels
 
 The below levels are included in this Tuning Pack.  
-There are not (currently) any custom levels in this tuning pack.
+There are not (currently) any custom levels in this tuning pack and is a baseline provided to kick-start your own tuning packs. If you do have a best practice tuning pack to share please reach out to us at <https://github.com/cookdown/easytune_overrides>.  
 
 ### DiscoveryOnly
 
