@@ -56,6 +56,10 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "Veeam Hyper-V",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "Veeam VMWare",
         "TuningPackDescription":  ""
     },
