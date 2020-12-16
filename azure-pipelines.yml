@@ -22,3 +22,18 @@ steps:
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
     verbose: true.
+
+- task: GitHubRelease@1
+  inputs:
+    gitHubConnection: 'github.com_P2P-Nathan'
+    repositoryName: 'cookdown/easytune_overrides'
+    action: 'create'
+    target: '$(Build.SourceVersion)'
+    tagSource: 'userSpecifiedTag'
+    tag: '$(Build.BuildId)'
+    title: '$(Build.BuildId) Release'
+    releaseNotesSource: 'inline'
+    releaseNotesInline: 'Some notes here'
+    changeLogCompareToRelease: 'lastFullRelease'
+    changeLogType: 'commitBased'
+
