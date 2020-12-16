@@ -12,7 +12,7 @@ Disables all rules and monitors, only discoveries are left enabled. Great when o
 
 ### MPDefault
 
-Contains the Unix/Linux authors default tuning. Good for setting a group/object to the tuning the MP author had intended for the MP.
+Contains the MPs default tuning. Good for setting a group/object to the tuning the MP author had intended for the MP.
 
 ### Availability Only
 
