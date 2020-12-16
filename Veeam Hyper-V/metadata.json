@@ -1,5 +1,5 @@
 {
-	"Author":"Shawn Williams (Technical Evangelist for SquaredUp)",
+	"Author":"Dave Lewis (Support, Testing and Infrastructure at Cookdown)",
 	"ConfigurationOptions":[],
 	"Description":"Tuning pack for Veeam Hyper-V MPs. A baseline provided to kick-start your own tuning packs. If you do have a best practice tuning pack to share please reach out to us at https://github.com/cookdown/easytune_overrides",
 	"Tags":null,
