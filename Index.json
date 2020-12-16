@@ -32,6 +32,14 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "Microsoft Universal Linux",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Microsoft SUSE Linux",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "System Center Orchestrator (SCOrch)",
         "TuningPackDescription":  ""
     },
@@ -89,5 +97,13 @@
     {
         "TuningPackName":  "Windows Server 2012 and 2012R2",
         "TuningPackDescription":  ""
+    },
+	{
+        "TuningPackName":  "Windows Server 2016 and 1709+",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName": "SQL Managed Instance",
+        "TuningPackDescription": ""
     }
 ]
