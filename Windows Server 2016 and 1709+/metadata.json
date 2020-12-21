@@ -1,17 +1,7 @@
-{"Author":"Nathan Foreman","ConfigurationOptions":[{
-			"ConfigurationName": "Essentials",
-			"DisplayName": null,
-			"Level": 0,
-			"Summary": "The core monitoring elements for server health and uptime, minimal performance collection"
-		}, {
-			"ConfigurationName": "Balanced",
-			"DisplayName": null,
-			"Level": 1,
-			"Summary": "A balance of monitoring and performance collection for Windows Servers"
-		}, {
-			"ConfigurationName": "Full",
-			"DisplayName": null,
-			"Level": 2,
-			"Summary": "The most robust monitoring scenario, including additional performance collection"
-		}
-	],"Description":"Overrides for monitoring related to Window Server 2016 and Windows Server 1709+ operating systems","Tags":null,"URL":null}
+{
+	"Author":"Nathan Foreman",
+	"ConfigurationOptions":[],
+	"Description":"Overrides for monitoring related to Window Server 2016 and Windows Server 1709+ operating systems. A baseline provided to kick-start your own tuning packs. If you do have a best practice tuning pack to share please reach out to us at https://github.com/cookdown/easytune_overrides",
+	"Tags":null,
+	"URL":"https://github.com/cookdown/easytune_overrides/tree/master/Windows%20Server%202016%20and%201709%2B"
+}

@@ -1,23 +1,7 @@
 {
 	"Author": "Nathan Foreman (Solutions Architect at Cookdown)",
-	"ConfigurationOptions": [{
-			"ConfigurationName": "Essentials",
-			"DisplayName": null,
-			"Level": 0,
-			"Summary": "Core monitoring for SQL instances"
-		}, {
-			"ConfigurationName": "Balanced",
-			"DisplayName": null,
-			"Level": 1,
-			"Summary": "A balance of monitoring and performance collection"
-		}, {
-			"ConfigurationName": "Full",
-			"DisplayName": null,
-			"Level": 2,
-			"Summary": "Fully implemented monitoring and performance collection for critical SQL services"
-		}
-	],
-	"Description": "Overrides for monitoring and performance collection on SQL Server 2012 instances",
+	"ConfigurationOptions": [],
+	"Description": "Overrides for monitoring and performance collection on SQL Server 2012 instances. A baseline provided to kick-start your own tuning packs. If you do have a best practice tuning pack to share please reach out to us at https://github.com/cookdown/easytune_overrides",
 	"Tags": null,
 	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/SQL%20Server%202012"
 }

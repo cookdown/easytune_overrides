@@ -48,6 +48,10 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "System Center Configuration Manager (SCCM)",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "System Center Core Monitoring",
         "TuningPackDescription":  ""
     },
@@ -60,10 +64,19 @@
         "TuningPackDescription":  ""
     },
     {
+        "TuningPackName":  "Veeam Hyper-V",
+        "TuningPackDescription":  ""
+    },
+    {
         "TuningPackName":  "Veeam VMWare",
         "TuningPackDescription":  ""
-    },    {
+    },
+    {
         "TuningPackName":  "Windows Client",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "Windows Client (Win 10)",
         "TuningPackDescription":  ""
     },
     {
@@ -76,6 +89,10 @@
     },
     {
         "TuningPackName":  "IIS 8 (Server 2012)",
+        "TuningPackDescription":  ""
+    },
+    {
+        "TuningPackName":  "IIS 10 (Server 2016)",
         "TuningPackDescription":  ""
     },
     {

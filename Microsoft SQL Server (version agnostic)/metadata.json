@@ -1,8 +1,27 @@
 {
-	"Author": "Shawn Williams (Technical Evangelist for SquaredUp)",
-	"ConfigurationOptions": [
-	],
-	"Description": "This tuning pack offers pre-defined monitornig levels for version 7.0.15.0 of the SQL Agnostic Management Pack.",
-	"Tags": null,
-	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/Microsoft%20SQL%20Server%20(version%20agnostic)"
+    "Author": "Shawn Williams (Technical Evangelist for SquaredUp)",
+	"ConfigurationOptions": [{
+		"ConfigurationName": "Test",
+		"DisplayName": "Test instances",
+		"Level": 0,
+		"Summary": "Designed for early adoption, this level provides you with the bare minimum in monitoring and infrequent performance collection."
+	},{
+		"ConfigurationName": "QA instances",
+		"DisplayName": "QA instances",
+		"Level": 1,
+		"Summary": "Designed to be a step up from the test level in performance collection."
+	},{
+		"ConfigurationName": "Production instances",
+		"DisplayName": "Production instances",
+		"Level": 2,
+		"Summary": "A more complete monitoring solution with frequenct performance collection."
+	},{
+		"ConfigurationName": "Performance",
+		"DisplayName": "Performance",
+		"Level": 3,
+		"Summary": "Like Production except with performance collection every 2 minutes. Use with caution."
+	}],
+    "Description": "This tuning pack offers pre-defined monitornig levels for version 7.0.15.0 of the SQL Agnostic Management Pack.",
+    "Tags": null,
+    "URL": "https://github.com/cookdown/easytune_overrides/tree/master/Microsoft%20SQL%20Server%20(version%20agnostic)"
 }

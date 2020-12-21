@@ -1,0 +1,23 @@
+{
+	"Author":"Cookdown",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "Essential",
+			"DisplayName": "Essentials",
+			"Level": 0,
+			"Summary": "Designed to give you bare-bones monitoring for your environment. Attempts to reduce alerts to actionable items at a risk of missing some proactive notifications."
+		}, {
+			"ConfigurationName": "Balanced",
+			"DisplayName": "Balanced",
+			"Level": 1,
+			"Summary": "Designed to provide additional monitoring and performance collection over essentials, while still reducing unnecessary noise from the default and full tuning options"
+		}, {
+			"ConfigurationName": "Full",
+			"DisplayName": "Full",
+			"Level": 2,
+			"Summary": "Includes alerts for more unique and specific conditions as well as some increased monitoring and performance collection intervals"
+		}
+	],
+	"Description":"Internet Information Services (IIS) 10 (captured using V10.1.0.0 of the MP). Shipped with Server 2016.",
+	"Tags":null,
+	"URL":"https://github.com/cookdown/easytune_overrides/tree/master/IIS%2010%20(Server%202016)"
+}

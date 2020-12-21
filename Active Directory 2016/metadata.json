@@ -1,1 +1,27 @@
-{"Author":"Stoyan Chalakov (MVP and Senior IT Consultant at POHN IT-Consulting GmbH)","ConfigurationOptions":[],"Description":"The tuning pack offers pre-defined monitornig levels for Windows Server 2016 and newer based Active Directory domain controllers.","Tags":null,"URL":"https://github.com/cookdown/easytune_overrides/tree/master/Active%20Directory%202016"}
+{
+    "Author": "Stoyan Chalakov (MVP and Senior IT Consultant at POHN IT-Consulting GmbH)",
+    "ConfigurationOptions": [{
+            "ConfigurationName": "Essential",
+            "DisplayName": "Essential",
+            "Level": 0,
+            "Summary": "A necessary minimum regarding the monitoring of Active Directory Directory Services in organizations of any scale. All critical components are covered."
+        },{
+            "ConfigurationName": "Balanced",
+            "DisplayName": "Balanced",
+            "Level": 1,
+            "Summary": "Building on essentials with important performance/availability monitors, and alert generating/performance collection rules. Covers all major components."
+        },{
+            "ConfigurationName": "Enhanced",
+            "DisplayName": "Enhanced",
+            "Level": 2,
+            "Summary": "Building on the balanced level this tuning level increases performance metrics collected, allowing Subject Matter Experts to troubleshoot problems in depth."
+        },{
+            "ConfigurationName": "Master",
+            "DisplayName": "Master",
+            "Level": 3,
+            "Summary": "Building on the Enhanced level this tuning level adds special case performance collection that should only be required in exceptional circumstances. Please enable with caution."
+        }],
+    "Description": "The tuning pack offers pre-defined monitornig levels for Windows Server 2016 and newer based Active Directory domain controllers.",
+    "Tags": null,
+    "URL": "https://github.com/cookdown/easytune_overrides/tree/master/Active%20Directory%202016"
+}

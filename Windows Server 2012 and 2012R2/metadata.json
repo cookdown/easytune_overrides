@@ -1,19 +1,9 @@
 {
 	"Author": "Nathan Foreman (Solutions Architect at Cookdown)",
 	"ConfigurationOptions": [{
-			"ConfigurationName": "Essentials",
-			"DisplayName": null,
-			"Level": 0,
-			"Summary": "The core monitoring elements for server health and uptime, minimal performance collection"
-		}, {
-			"ConfigurationName": "Standard",
-			"DisplayName": null,
-			"Level": 1,
-			"Summary": "A balance of monitoring and performance collection for Windows Servers"
-		}, {
 			"ConfigurationName": "Full",
 			"DisplayName": null,
-			"Level": 2,
+			"Level": 0,
 			"Summary": "The most robust monitoring scenario, including additional performance collection"
 		}
 	],

@@ -1,6 +1,7 @@
-# SQL Server 2008 Tuning
+# IIS 10 Tuning
 
-This Tuning Pack covers the Microsoft authored SQL 2008 management packs.
+This tuning pack covers IIS 10, which was shipped with Server 2016.  
+Microsoft authors both management packs covered in the Tuning Pack.
 
 ## Tuning Levels
 
@@ -24,7 +25,7 @@ Example items included in the Essentials:
 
 - Windows service stopped
 - Service failed to start / load configuration
-- Service account failures
+- Website unavailable
 
 ### Balanced
 
@@ -38,5 +39,5 @@ Full monitoring includes alerts for more unique and specific conditions as well 
 
 #### Management Packs Tuned
 
-Microsoft.SQLServer.2008.Discovery  
-Microsoft.SQLServer.2008.Monitoring  
+Microsoft.Windows.InternetInformationServices.2016  
+Microsoft.Windows.InternetInformationServices.CommonLibrary  

@@ -1,6 +1,7 @@
-# Veeam VMWare Tuning
+# Veeam Hyper-V Tuning
 
-This Tuning Pack covers the Veeam VMWare management packs (captured with version 8.0.0.2451 of the MP).
+This Tuning Pack covers the Veeam Hyper-V management packs (captured with version 8.0.0.2467 of the MP).  
+Some of the base discoveries are common with VMWare.  
 
 This tuning pack was created by Shawn Williams, a member of the Technical Evangelist group from SquaredUp.  
 Read more about Shawn from the SquaredUp Blog here <https://squaredup.com/blog/meet-the-tech-evangelist-group>
@@ -21,9 +22,5 @@ Contains the MPs default tuning. Good for setting a group/object to the tuning t
 #### Management Packs Tuned
 
 Veeam.Virt.Extensions.VMware.BaseDiscovery  
-Veeam.Virt.Extensions.VMware.Discovery  
-Veeam.Virt.Extensions.VMware.Integration  
-Veeam.Virt.Extensions.VMware.Monitoring  
-Veeam.Virt.Extensions.VMware.Report.DataSet  
-Veeam.Virt.Extensions.VMware.vCenter.Monitoring  
-Veeam.Virt.Extensions.VMware.VirtualSANAlarms  
+Veeam.Virt.Extensions.HyperV.Discovery  
+Veeam.Virt.Extensions.HyperV.Monitoring  
