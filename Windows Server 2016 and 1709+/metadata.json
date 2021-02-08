@@ -1,17 +1,47 @@
-{"Author":"Nathan Foreman","ConfigurationOptions":[{
-			"ConfigurationName": "Essentials",
-			"DisplayName": null,
+{
+	"Author": "Dave Lewis (Head of Support at Cookdown)",
+	"ConfigurationOptions": [{
+			"ConfigurationName": "Test",
+			"DisplayName": "Test",
 			"Level": 0,
-			"Summary": "The core monitoring elements for server health and uptime, minimal performance collection"
-		}, {
-			"ConfigurationName": "Balanced",
-			"DisplayName": null,
+			"Summary": "Minimal alerting and very infrequent performance collection"
+		},{
+			"ConfigurationName": "QA",
+			"DisplayName": "QA",
 			"Level": 1,
-			"Summary": "A balance of monitoring and performance collection for Windows Servers"
-		}, {
-			"ConfigurationName": "Full",
-			"DisplayName": null,
+			"Summary": "Low levels of alerting and infrequent performance collection"
+		},{
+			"ConfigurationName": "Production",
+			"DisplayName": "Production",
 			"Level": 2,
-			"Summary": "The most robust monitoring scenario, including additional performance collection"
-		}
-	],"Description":"Overrides for monitoring related to Window Server 2016 and Windows Server 1709+ operating systems","Tags":null,"URL":null}
+			"Summary": "Fairly standard alerting and performance collection"
+		},{
+			"ConfigurationName": "Performance",
+			"DisplayName": "Performance",
+			"Level": 3,
+			"Summary": "USE WITH CAUTION. Same alerting as Production but ALL performance counters enabled with very frequent collection. Can be helpful for troubleshooting elusive problems but extended use will add significant load to your management server and the target servers themselves."
+		},{
+			"ConfigurationName": "Domain Controller",
+			"DisplayName": "Domain Controller",
+			"Level": 4,
+			"Summary": "Same alerting as with Production. Enables performance collection relevant to Domain Controlers. This level assumes that there is not enough RAM to load the entire NTDS Database into memory. If this is not the case in your scenario you can probably drop most of the disk related metrics."
+		},{
+			"ConfigurationName": "Web Server",
+			"DisplayName": "Web Server",
+			"Level": 5,
+			"Summary": "Same alerting as with Production. Enables performance collection relevant to a variety of types of web server."
+		},{
+			"ConfigurationName": "Exchange",
+			"DisplayName": "Exchange",
+			"Level": 6,
+			"Summary": "Useful metrics for all roles. You may wish to adapt tuning for the roles in use on your specific servers (Dedicated CAS servers may be better served using the Web Server level, MBX may be better served using the Database level for example)."
+		},{
+			"ConfigurationName": "Database",
+			"DisplayName": "Database",
+			"Level": 7,
+			"Summary": "Same alerting as with Production. Enables performance collection relevant to a variety of types of database server."
+		}],
+	"Description": "Windows Server 2016 and 1709+ tuning pack",
+	"Tags": null,
+	"URL": "https://github.com/cookdown/easytune_overrides/tree/master/Windows%20Server%202016%20and%201709+"
+}
